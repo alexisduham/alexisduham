@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">Acceuil</a></li>
+            <li class="link"><a href="#">projets</a></li>
+            <li class="link"><a href="#">À propos</a></li>
+            <li class="link"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="home-section active">
+        <h1 class="hero-heading">Alexis <br> Duhamel</h1>
+        <img src="img/home.jpeg" class="home-img" alt="">
+    </section>
+
+    <!-- project section -->
+    <section class="project-section active">
+        <h1 class="project-heading">Mes projets</h1>
+        <div class="project-container">
+            <div class="project-card">
+                <img src="projet/images/main.jpg" class="project-img" alt="">
+                <div class="project-content">
+                    <h1 class="project-title">projet 01</h1>
+                    <p class="project-info">
+                        Ce site Web est essentiellement l'un de mes projets de développement Web qui est construit en utilisant uniquement html et css.
+                    </p>
+                    <div class="project-btn-grp">
+                        <a href="./projet/index.html" style="">
+                         <button class="project-btn github">ouvrir</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section active">
+        <div class="about">
+            <div class="about-img-container">
+                <img src="projet/images/A4BCE297-AC25-4F6C-AF1A-CA63015D80A7_1_105_c.jpeg" class="about-img" alt="">
+                <a href="./doc/cv-alex.pdf" style="">
+                    <button class="project-btn github">CV</button>
+                   </a>
+            </div>
+            <p class="about-info">Merci pour votre intérêt, quelques infos à propos de moi
+                je suis un ancien éléve de alt-rh, passionné par le domaine informatique et la résolution de problême grâce au code.
+                Je maitrise leS languages html, css et javascript. <br> à bientôt, <strong> Alex.</strong>
+            </p>
+        </div>
+
+        <!-- skills -->
+        <div class="skill-section">
+            <h1 class="heading">skills</h1>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <img src="img/html.png" class="skill-img" alt="">
+                    <div class="skill-level">80%</div>
+                    <h1 class="skill-name">HTML</h1>
+                    <p class="skill-info"></p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/css.png" class="skill-img" alt="">
+                    <div class="skill-level">80%</div>
+                    <h1 class="skill-name">CSS</h1>
+                    <p class="skill-info"></p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/js.png" class="skill-img" alt="">
+                    <div class="skill-level">50%</div>
+                    <h1 class="skill-name">JS</h1>
+                    <p class="skill-info"></p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/nodejs.png" class="skill-img" alt="">
+                    <div class="skill-level">50%</div>
+                    <h1 class="skill-name">NODE</h1>
+                    <p class="skill-info"></p>
+                </div>
+                <div class="skill-card">
+                    <img src="img/reactjs.png" class="skill-img" alt="">
+                    <div class="skill-level">50%</div>
+                    <h1 class="skill-name">REACT</h1>
+                    <p class="skill-info"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- timeline -->
+        <div class="timeline">
+            <h1 class="heading">formation</h1>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Décembre-2021 - Avril-2022</h1>
+                    <p class="card-detail">Formation devellopement-web alt-rh, aprentissage des bases du html, du css et du js</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">Avril-2022 - Décembre-2022</h1>
+                    <p class="card-detail">Formation devellopement-web-mobile alt-rh, aprentissage js, node js et php </p>
+                </div>
+            </div>
+           
+        </div>
+
+        <!-- contact section -->
+        <section class="contact-section active">
+            <form class="contact-form">
+                <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+                <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
+                <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
+                <button type="submit" class="form-submit-btn">contact</button>
+            </form>
+            <!-- map -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42133.56837646199!2d1.8072560148589705!3d48.698828668124534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e427675a0a9031%3A0x40b82c3688c39d0!2s78610%20Le%20Perray-en-Yvelines!5e0!3m2!1sfr!2sfr!4v1661412785082!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
